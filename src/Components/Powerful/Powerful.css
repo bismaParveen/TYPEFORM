@@ -1,0 +1,28 @@
+.powerful-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  color: #191919;
+  word-spacing: 1px;
+  text-align: center;
+}
+
+.powerful-container h2 {
+  padding-bottom: 1.2rem;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.powerful-container .images {
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  padding-top: 5rem;
+  gap: 6rem;
+}
+
+.powerful-container p {
+  font-size: 1.2rem;
+}

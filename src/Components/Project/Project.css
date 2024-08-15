@@ -1,0 +1,61 @@
+.project-container .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+    color: #191919;
+    letter-spacing: 1px;
+    background-color: #fcfaf8;
+  }
+
+  .project-container .heading {
+   margin-left: 2rem;
+   margin-right: 2rem;
+    width: 40%;
+  }
+  
+  .project-container .heading h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  .project-container .heading h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+
+  .project-container 
+  .heading p {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      font-size: 1.5rem;
+  }
+  
+
+  .project-img img {
+    height: 80vh;
+}
+
+.project-container .button {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .project-container .btn {
+    
+    background-color: #191919;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem 1.2rem;
+    letter-spacing: 1px;
+    border-radius: 0.8rem;
+  }
+  
+  .project-container .btn:hover {
+    background-color: #333333;
+    color: white;
+  }

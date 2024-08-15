@@ -1,0 +1,36 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  color: #191919;
+  word-spacing: 2px;
+  text-align: center;
+}
+
+.presentation .heading {
+  width: 60%;
+}
+
+.presentation h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 4rem;
+}
+
+.presentation img {
+    height: 7rem;
+    border-radius: 2rem;
+}
+
+.img h3 {
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.img p {
+  padding-bottom: 2rem;
+font-size: 1.2rem;
+}
+
