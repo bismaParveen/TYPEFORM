@@ -7,7 +7,6 @@
   padding-bottom: 8rem;
   color: #191919;
   background-color: #fcfaf8;
-  word-spacing: 1px;
   text-align: center;
 }
 
@@ -24,7 +23,8 @@
 
 .btn-group {
   display: flex;
-  justify-content: center;align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border: 0.5px solid #a8a8a8;
   border-radius: 0.5rem;
@@ -43,18 +43,100 @@
 .btn-group span {
   font-size: 1rem;
   padding: 0.2rem 0.8rem;
-border-radius: 1rem;
+  border-radius: 1rem;
   border: 1px solid rgba(1, 58, 46, 0.5);
   color: rgba(1, 58, 46, 0.5);
   background-color: rgb(230, 239, 238);
 }
 
-.btn-group .btn-grey:hover{
-background-color: #ebebeb;
-border-radius: 0;
+.btn-group .btn-grey:hover {
+  background-color: #ebebeb;
+  border-radius: 0;
 }
 
 .btn-group .btn-green:hover {
-  background-color: rgb(230, 239, 238);
-border-radius: 0;
+  background-color: rgb(201, 201, 201);
+  border-radius: 0;
+}
+
+.cards-container .rows-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.cards-container .rows {
+  width: 30rem;
+  background-color: #fff;
+  color: rgb(40, 40, 40);
+  padding: 2rem;
+  margin: 1.2rem;
+  position: relative;
+  border: 0.1px solid rgb(235, 235, 235);
+  border-radius: 1rem;
+}
+
+.cards-container .rows li {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cards-container .rows h3 {
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.cards-container p {
+  padding-bottom: 4rem;
+  font-size: 0.9rem;
+  color: #999999;
+}
+
+.cards-container .card-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.cards-container .text-muted {
+  color: #999999;
+  font-size: 1.2rem;
+}
+
+.cards-container .text-green {
+  color: rgb(2, 80, 65);
+  font-size: 1rem;
+}
+
+.rows-container .btn {
+  background-color: #191919;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 90%;
+  padding: 0.8rem;
+  letter-spacing: 1px;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.rows-container .btn:hover {
+  background-color: #333333;
+  color: white;
+}
+
+.rows-container hr {
+  width: 100%;
+  opacity: 0.3;
+}
+
+.rows-container span {
+  display: flex;
+  text-align: center;
+  padding: 0.5rem 1rem;
 }
