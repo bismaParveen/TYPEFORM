@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/TYPEFORM/static/css/main.f0a2fca9.css",
-    "main.js": "/TYPEFORM/static/js/main.2d1ab6f3.js",
-    "static/js/453.95834a8d.chunk.js": "/TYPEFORM/static/js/453.95834a8d.chunk.js",
-    "static/media/Hero1.webp": "/TYPEFORM/static/media/Hero1.15dc0a8d1e56fbb20a96.webp",
-    "static/media/project3.webp": "/TYPEFORM/static/media/project3.38ceca9ed6cf90708442.webp",
-    "static/media/project1.webp": "/TYPEFORM/static/media/project1.d020e1de0b38531e2ad1.webp",
-    "static/media/project2.webp": "/TYPEFORM/static/media/project2.d040301ada8034f91753.webp",
-    "static/media/salesforce.webp": "/TYPEFORM/static/media/salesforce.44a72d578229d66031bc.webp",
-    "static/media/Logo.webp": "/TYPEFORM/static/media/Logo.0e577f246ebfc38f7cbc.webp",
-    "static/media/google.webp": "/TYPEFORM/static/media/google.c9efa2d48cdf16704791.webp",
-    "static/media/zapier.webp": "/TYPEFORM/static/media/zapier.4b71c4cdf8ff8a518e41.webp",
-    "static/media/slack.webp": "/TYPEFORM/static/media/slack.f79c7899a971766f3633.webp",
-    "static/media/hubspot.webp": "/TYPEFORM/static/media/hubspot.17e735dec42f806b5996.webp",
-    "static/media/analytics.webp": "/TYPEFORM/static/media/analytics.c0fc68741517f66cf897.webp",
-    "index.html": "/TYPEFORM/index.html",
-    "main.f0a2fca9.css.map": "/TYPEFORM/static/css/main.f0a2fca9.css.map",
-    "main.2d1ab6f3.js.map": "/TYPEFORM/static/js/main.2d1ab6f3.js.map",
-    "453.95834a8d.chunk.js.map": "/TYPEFORM/static/js/453.95834a8d.chunk.js.map"
+    "main.css": "/typeform/static/css/main.23661ca4.css",
+    "main.js": "/typeform/static/js/main.456373d9.js",
+    "static/js/453.95834a8d.chunk.js": "/typeform/static/js/453.95834a8d.chunk.js",
+    "static/media/Hero1.webp": "/typeform/static/media/Hero1.15dc0a8d1e56fbb20a96.webp",
+    "static/media/project3.webp": "/typeform/static/media/project3.38ceca9ed6cf90708442.webp",
+    "static/media/project1.webp": "/typeform/static/media/project1.d020e1de0b38531e2ad1.webp",
+    "static/media/project2.webp": "/typeform/static/media/project2.d040301ada8034f91753.webp",
+    "static/media/salesforce.webp": "/typeform/static/media/salesforce.44a72d578229d66031bc.webp",
+    "static/media/Logo.webp": "/typeform/static/media/Logo.0e577f246ebfc38f7cbc.webp",
+    "static/media/google.webp": "/typeform/static/media/google.c9efa2d48cdf16704791.webp",
+    "static/media/zapier.webp": "/typeform/static/media/zapier.4b71c4cdf8ff8a518e41.webp",
+    "static/media/slack.webp": "/typeform/static/media/slack.f79c7899a971766f3633.webp",
+    "static/media/hubspot.webp": "/typeform/static/media/hubspot.17e735dec42f806b5996.webp",
+    "index.html": "/typeform/index.html",
+    "static/media/analytics.webp": "/typeform/static/media/analytics.c0fc68741517f66cf897.webp",
+    "main.23661ca4.css.map": "/typeform/static/css/main.23661ca4.css.map",
+    "main.456373d9.js.map": "/typeform/static/js/main.456373d9.js.map",
+    "453.95834a8d.chunk.js.map": "/typeform/static/js/453.95834a8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0a2fca9.css",
-    "static/js/main.2d1ab6f3.js"
+    "static/css/main.23661ca4.css",
+    "static/js/main.456373d9.js"
   ]
 }
