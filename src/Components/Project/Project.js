@@ -50,7 +50,7 @@ function Project() {
           </p>
         </div>
       </div>
-      <a href="/" className="button">
+      <a href="#form" className="button">
         <button type="button" className="btn btn-dark">
           Create your page
         </button>

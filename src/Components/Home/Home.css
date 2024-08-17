@@ -5,6 +5,7 @@
   padding-top: 8rem;
   color: #191919;
   letter-spacing: 1px;
+  position: relative;
 }
 
 .heading {
@@ -29,7 +30,7 @@
 }
 
 .home-img img {
-  height: 120vh;
+  position: relative;
 }
 
 .btn {

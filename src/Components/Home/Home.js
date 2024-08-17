@@ -16,7 +16,7 @@ function Home() {
         </a>
     </div>
     <div className="home-img">
-        <img src={Hero} alt="" />
+        <img src={Hero} width={900} alt="" />
     </div>
    </div>
   )

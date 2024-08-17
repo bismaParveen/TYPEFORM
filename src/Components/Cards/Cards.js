@@ -12,7 +12,7 @@ function Cards() {
         </p>
       </div>
       <div className="cards">
-        <div class="btn-group">
+        <div className="btn-group">
           <button type="button" className="btn btn-grey">
             Monthly
           </button>
@@ -22,14 +22,14 @@ function Cards() {
         </div>
       </div>
 
-      <div class="rows-container">
-        <div class="rows">
-          <div class="row1">
+      <div className="rows-container">
+        <div className="rows">
+          <div className="row1">
             <h3>Basic</h3>
             <p>Create interactive forms that connect to your workflow</p>
-            <h1 class="card-title">
+            <h1 className="card-title">
               25 USD
-              <small class="text-muted">/mo</small>
+              <small className="text-muted">/mo</small>
             </h1>
 
             <p className="text-green">Save 58 USD /yr</p>
@@ -39,76 +39,113 @@ function Cards() {
               </button>
             </a>
             <hr />
-            <span><i class="fa-solid fa-check"></i>
-            <li>100 responses/mo included</li>
-            </span>
+            <li>
+            <i className="fa-solid fa-check">
+            </i>
+
+            100 responses/mo included</li>
             <hr />
-            <i class="fa-solid fa-check"></i>
-            <span>1 user</span>
+            <li>
+            <i className="fa-solid fa-check"></i>
+            1 user</li>
             <hr />
-            <i class="fa-solid fa-check"></i>
-            <span>Unlimited typeforms</span>
+            <li>
+            <i className="fa-solid fa-check"></i>
+            Unlimited typeforms</li>
             <hr />
-            <i class="fa-solid fa-check"></i>
-            <span>Unlimited questions</span>
+            <li>
+            <i className="fa-solid fa-check"></i>
+            Unlimited questions</li>
           </div>
         </div>
-        <div class="rows">
-          <div class="row2">
+        <div className="rows">
+          <div className="row2">
             <h3>Plus</h3>
             <p>Make your forms more beautiful and on-brand</p>
-            <h1 class="card-title pricing-card-title">
-              25 USD
-              <small class="text-muted fw-light">/mo</small>
+            <h1 className="card-title pricing-card-title">
+            50 USD
+
+              <small className="text-muted fw-light">/mo</small>
             </h1>
 
-            <p>Save 58 USD /yr</p>
+            <p className="text-green">Save 118 USD /yr</p>
             <a href="/" className="button">
               <button type="button" className="btn btn-dark">
-                Get Basic
+                Get Plus
               </button>
             </a>
             <hr />
-            <i class="fa-solid fa-check"></i>
-            <li>100 responses/mo included</li>
+            <li>
+            <i className="fa-solid fa-check"></i>
+            1,000 responses/mo included</li>
             <hr />
-            <i class="fa-solid fa-check"></i>
-            <li>1 user</li>
+            <li>
+            <i className="fa-solid fa-check"></i>
+            3 users</li>
             <hr />
-            <i class="fa-solid fa-check"></i>
-            <li>Unlimited typeforms</li>
+            <li>
+            <i className="fa-solid fa-check"></i>
+            Everything in <strong className="text-green"> Basic </strong></li>
             <hr />
-            <i class="fa-solid fa-check"></i>
-            <li>Unlimited questions</li>
+            <li>
+            <i className="fa-solid fa-check"></i>
+           Remove Typeform branding</li>
+           <hr />
+           <li>
+            <i className="fa-solid fa-check"></i>
+            Custom subdomain</li>
           </div>
         </div>
-        <div class="rows">
-          <div class="row3">
-            <h3>Basic</h3>
-            <p>Create interactive forms that connect to your workflow</p>
-            <h1 class="card-title pricing-card-title">
-              25 USD
-              <small class="text-muted fw-light">/mo</small>
+        <div className="rows">
+          <div className="row3">
+            <h3>Business</h3>
+            <p>Analyze performance and do more with your data</p>
+            <h1 className="card-title pricing-card-title">
+            83 USD
+              <small className="text-muted fw-light">/mo</small>
             </h1>
 
-            <p>Save 58 USD /yr</p>
+            <p className="text-green">Save 198 USD /yr</p>
             <a href="/" className="button">
               <button type="button" className="btn btn-dark">
-                Get Basic
+                Get Business
               </button>
             </a>
             <hr />
-            <i class="fa-solid fa-check"></i>
-            <li>100 responses/mo included</li>
-            <i class="fa-solid fa-check"></i>
-            <li>1 user</li>
-            <i class="fa-solid fa-check"></i>
-            <li>Unlimited typeforms</li>
-            <i class="fa-solid fa-check"></i>
-            <li>Unlimited questions</li>
+            <li>
+            <i className="fa-solid fa-check"></i>
+            10,000 responses/mo included</li>
+            <hr />
+            <li>
+            <i className="fa-solid fa-check"></i>
+            5 users</li>
+            <hr />
+            <li>
+            <i className="fa-solid fa-check"></i>
+            Everything in <strong className="text-green"> Plus </strong></li>
+            <hr />
+            <li>
+            <i className="fa-solid fa-check"></i>
+            Drop-off rates</li>
+            <hr />
+            <li>
+            <i className="fa-solid fa-check"></i>
+            Conversion tracking</li>
+            <hr />
+            <li>
+            <i className="fa-solid fa-check"></i>
+            Priority support and live chat</li>
           </div>
         </div>
       </div>
+      <div className="landing-page">
+        <h2>Ready to launch your landing page?</h2>
+      </div>
+      <a href="/" className="button">
+              <button type="button" className="btn btn-dark">
+                Get Started - it's free
+              </button>
+            </a>
     </div>
   );
 }

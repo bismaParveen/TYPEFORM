@@ -1,0 +1,24 @@
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #fcfaf8;
+  background-color: #191919;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 7rem;
+}
+
+.footer a  {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.footer i {
+    margin-right: 1rem;
+}
