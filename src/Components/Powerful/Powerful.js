@@ -9,8 +9,10 @@ import Salesforce from "../Images/salesforce.webp";
 
 function Powerful() {
   return (
-    <div className="powerful-container">
-      <div className="powerful">
+    <div className="powerful">
+      <div className="container">
+        <div className="powerful-content">
+      <div className="heading">
         <h2>Typeform integrates with all the powerful apps</h2>
       </div>
       <div className="images">
@@ -37,6 +39,8 @@ function Powerful() {
         <div className="img5">
           <img src={Salesforce} alt="salesforce"  width={70}/>
           <p>Salesforce</p>
+        </div>
+        </div>
         </div>
       </div>
     </div>

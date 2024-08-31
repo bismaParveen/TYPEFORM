@@ -1,22 +1,28 @@
-.cards-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.cards {
+  position: relative;
   padding-top: 8rem;
   padding-bottom: 8rem;
   color: #191919;
   background-color: #fcfaf8;
+}
+
+.cards-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.cards-container h2 {
+.cards h2 {
   padding-bottom: 0.5rem;
   font-size: 5rem;
   font-weight: 500;
 }
 
-.cards-container p a {
+.cards .heading p,
+a {
+  font-size: 1.5rem;
   color: black;
   font-weight: 500;
 }
@@ -59,7 +65,7 @@
   border-radius: 0;
 }
 
-.cards-container .rows-container {
+.cards .rows-content {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -68,8 +74,8 @@
   font-weight: 600;
 }
 
-.cards-container .rows {
-  width: 30rem;
+.cards .row {
+  width: 28rem;
   background-color: #fff;
   color: rgb(40, 40, 40);
   padding: 2rem;
@@ -80,41 +86,41 @@
   border-radius: 1rem;
 }
 
-.cards-container .rows li {
+.cards .rows-content li {
   padding-bottom: 1rem;
   float: left;
   padding: 1rem;
   font-size: 1.3rem;
 }
 
-.cards-container .rows h3 {
+.cards .rows-content h3 {
   padding-top: 3rem;
   padding-bottom: 0.5rem;
   font-size: 1.5rem;
 }
 
-.cards-container p {
+.cards .rows-content p {
   padding-bottom: 4rem;
   font-size: 0.9rem;
   color: #999999;
 }
 
-.cards-container .card-title {
+.cards .card-title {
   font-size: 2.5rem;
   font-weight: 400;
 }
 
-.cards-container .text-muted {
+.cards .text-muted {
   color: #999999;
   font-size: 1.2rem;
 }
 
-.cards-container .text-green {
+.cards .text-green {
   color: rgb(2, 80, 65);
   font-size: 1rem;
 }
 
-.rows-container .btn {
+.rows .btn {
   background-color: #191919;
   color: white;
   font-size: 1.2rem;
@@ -127,17 +133,17 @@
   margin-bottom: 2rem;
 }
 
-.rows-container .btn:hover {
+.rows .btn:hover {
   background-color: #333333;
   color: white;
 }
 
-.rows-container hr {
+.rows hr {
   width: 100%;
   opacity: 0.3;
 }
 
-.rows-container i {
+.rows-content i {
   margin-right: 1rem;
 }
 

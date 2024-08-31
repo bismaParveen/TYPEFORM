@@ -1,0 +1,105 @@
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.form-content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.form-pic {
+  padding-top: 7rem;
+  color: #fff;
+  background-color: #191919;
+  height: 100vh;
+  min-height: 800px;
+  width: 40%;
+}
+
+.form-pic h2 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.form-pic img {
+  padding: 5rem;
+  padding-top: 2rem;
+}
+
+.form-text {
+  border-radius: 30px 0px 0 30px;
+  background-color: #fff;
+  color: #191919;
+  width: 60%;
+  height: 100vh;
+  min-height: 800px;
+}
+
+.eng {
+  margin: 1rem;
+  float: left;
+}
+
+.form-button {
+  margin: 1rem;
+  float: right;
+}
+
+.form-btn {
+  color: #191919;
+  background-color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  letter-spacing: 1px;
+  border-radius: 0.8rem;
+}
+
+.form-logo {
+  margin: auto;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+
+.form-text p {
+  color: rgb(95, 95, 95);
+  font-size: 1.8rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.social-buttons {
+  padding-top: 1.5rem;
+  /* display: flex; */
+  flex-direction: column;
+  margin: auto;
+  cursor: pointer;
+  width: 35%;
+  padding-bottom: 1rem;
+}
+
+.social-buttons li {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  border: 2px solid #191919;
+  color: #191919;
+  font-weight: 500;
+  border-radius: 0.8rem;
+  gap: 1.2rem;
+}
+
+.form .forms-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.forms-button .btn {
+  padding: 1rem 4.2rem;
+}

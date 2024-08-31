@@ -3,7 +3,9 @@ import "../Cards/Cards.css";
 
 function Cards() {
   return (
-    <div className="cards-container">
+    <div className="cards">
+      <div className="container">
+        <div className="cards-content">
       <div className="heading">
         <h2>Choose the plan that works for</h2>
         <h2> you</h2>
@@ -22,9 +24,10 @@ function Cards() {
         </div>
       </div>
 
-      <div className="rows-container">
-        <div className="rows">
-          <div className="row1">
+      <div className="rows">
+        <div className="container">
+        <div className="rows-content">
+          <div className="row">
             <h3>Basic</h3>
             <p>Create interactive forms that connect to your workflow</p>
             <h1 className="card-title">
@@ -57,9 +60,9 @@ function Cards() {
             <i className="fa-solid fa-check"></i>
             Unlimited questions</li>
           </div>
-        </div>
-        <div className="rows">
-          <div className="row2">
+        {/* </div> */}
+        {/* <div className="rows-content"> */}
+          <div className="row">
             <h3>Plus</h3>
             <p>Make your forms more beautiful and on-brand</p>
             <h1 className="card-title pricing-card-title">
@@ -95,9 +98,9 @@ function Cards() {
             <i className="fa-solid fa-check"></i>
             Custom subdomain</li>
           </div>
-        </div>
-        <div className="rows">
-          <div className="row3">
+        {/* </div> */}
+        {/* <div className="rows-content"> */}
+          <div className="row">
             <h3>Business</h3>
             <p>Analyze performance and do more with your data</p>
             <h1 className="card-title pricing-card-title">
@@ -136,6 +139,7 @@ function Cards() {
             <i className="fa-solid fa-check"></i>
             Priority support and live chat</li>
           </div>
+          </div>
         </div>
       </div>
       <div className="landing-page">
@@ -146,6 +150,8 @@ function Cards() {
                 Get Started - it's free
               </button>
             </a>
+            </div>
+            </div>
     </div>
   );
 }

@@ -6,10 +6,12 @@ import Project3 from "../Images/project3.webp";
 
 function Project() {
   return (
-    <div className="project-container">
-      <div className="project">
+    <div className="project">
+      <div className="container">
+        <div className="project-content">
+      <div className="project-box">
         <div className="project-img">
-          <img src={Project1} alt="" />
+          <img src={Project1} width={500} alt="" />
         </div>
         <div className="heading">
           <h3>No Code Website Builder</h3>
@@ -22,7 +24,7 @@ function Project() {
           </p>
         </div>
       </div>
-      <div className="project">
+      <div className="project-box">
         <div className="heading">
           <h3>Lead form Pages</h3>
           <h1>Effortlessly collect lead insights</h1>
@@ -33,12 +35,12 @@ function Project() {
           </p>
         </div>
         <div className="project-img">
-          <img src={Project2} alt="" />
+          <img src={Project2} width={500} alt="" />
         </div>
       </div>
-      <div className="project">
+      <div className="project-box">
         <div className="project-img">
-          <img src={Project3} alt="" />
+          <img src={Project3} width={500} alt="" />
         </div>
         <div className="heading">
           <h3>Landing Page Design</h3>
@@ -55,6 +57,8 @@ function Project() {
           Create your page
         </button>
       </a>
+    </div>
+    </div>
     </div>
   );
 }
